@@ -1,0 +1,9 @@
+---
+batch_connect:
+  template: "vnc"
+script:
+  queue_name : <%= buddy_queue %>
+  wall_time: <%= 3600*buddy_num_hours.to_i %> 
+  native:
+    - "--ntasks"
+    - <%= buddy_num_cores.to_i %>
