@@ -3,7 +3,7 @@ Changes to this project that result in an increase of the major and or minor rev
 
 ## [Unreleased] - Unknown
 
-## [v1.0.0] - 2021-12-02
+## [v1.0.0] - 2021-12-06
 ### Added
 - Initial commit of current code
 
