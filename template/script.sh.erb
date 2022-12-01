@@ -30,16 +30,17 @@ cd "${HOME}"
 # Clear current modules and load the requested version
 module purge
 module load <%= context.version %>
+module load git/2.36.0-nodocs git-lfs
 
+# Additional modules
 <%- unless context.modules.blank? -%> 
 # Load additional requested modules
 module load <%= context.modules %>
+<%- end -%>
 
 # List loaded modules
 module list
-<%- end -%>
 
 # Launch PyCharm
-module list
 set -x
 pycharm.sh

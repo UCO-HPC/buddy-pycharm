@@ -16,7 +16,11 @@ attributes:
     options:
       - [ "Community 2021.3", "PyCharm/2021.3" ]
       - [ "Community 2019.3.1 (Deprecated March 2022)", "PyCharm/2019.3.1" ] 
-  modules: ""
+  modules:
+    widget: text_field
+    label: Additional modules
+    help: "Additional modules you wish to load seperated by spaces. Please be sure to match the FOSS or GCC versions listed with your selected pycharm version."
+    value: ""
   buddy_queue:
     label: Queue
     help: "Queue your job will run on"
