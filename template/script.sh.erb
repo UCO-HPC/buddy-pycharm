@@ -27,19 +27,27 @@ cd "${HOME}"
 # Start Pycharm
 #
 
-# Clear current modules and load the requested version
+# Clear current modules 
 module purge
-module load <%= context.version %>
 
-<%- unless context.modules.blank? -%> 
-# Load additional requested modules
-module load <%= context.modules %>
+# Load git and git-lfs as the OS versions are too old
+module load git/2.36.0-nodocs git-lfs
+
+<%- if context.advanced == "1" -%>
+  module load <%= context.version %>
+  <%- else -%>
+    module load PyCharm/2022.3
+<%- end -%>
+
+# If additional modules were requested, load them now
+<%- if context.advanced == "1" && context.modules.blank? == false -%> 
+  # Load additional requested modules
+  module load <%= context.modules %>
+<%- end -%>
 
 # List loaded modules
 module list
-<%- end -%>
 
 # Launch PyCharm
-module list
 set -x
 pycharm.sh

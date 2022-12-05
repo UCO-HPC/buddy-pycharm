@@ -44,5 +44,29 @@ attributes:
     max: 20
     step: 1
     value: 2
+<<<<<<< Updated upstream
+=======
+  advanced:
+    widget: check_box
+    label: View advanced options
+    value: false
+  version:
+    widget: select
+    label: "PyCharm version"
+    help: "This defines the version of PyCharm you want to load."
+    options:
+      - [ "Community 2022.3", "PyCharm/2022.3" ]
+      - [ "Community 2021.3 (Deprecated March 2023)", "PyCharm/2021.3" ]
+    value: "Community 2022.3"
+#  usersuppliedpython:
+#    widget: check_box
+#    label: User Supplied Python
+#    help: Check this box if you loading any Python modules below.
+#    value: "false"
+  modules:
+    widget: text_field
+    label: Additional Modules
+    help: "Additional modules you wish to load seperated by spaces. Be sure to match the FOSS, GCC, and or Python versions." 
+>>>>>>> Stashed changes
   bc_vnc_resolution:
     required: true

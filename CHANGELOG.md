@@ -3,9 +3,22 @@ Changes to this project that result in an increase of the major and or minor rev
 
 ## [Unreleased] - Unknown
 
+## [v2.0.0] - 2022-12-05
+### Added
+- Support for PyCharm 2022.3
+- Advanced options
+- Custom modules field under advanced options
+
+### Changed
+- Moved version selection to advanced options
+
+### Removed
+- Support for PyCharm 2019.3.1
+
 ## [v1.0.0] - 2021-12-06
 ### Added
 - Initial commit of current code
 
-[Unreleased]: https://github.com/UCO-HPC/buddy_pycharm/compare/v1.0.0...devel
+[Unreleased]: https://github.com/UCO-HPC/buddy_pycharm/compare/v2.0.0...devel
+[Unreleased]: https://github.com/UCO-HPC/buddy_pycharm/compare/v1.0.0...v2.0.0
 [v1.0.0]: https://github.com/UCO-HPC/buddy_pycharm/releases/tag/v1.0.0
