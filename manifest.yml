@@ -1,7 +1,7 @@
 ---
-name: Pycharm
+name: PyCharm
 category: Interactive Apps
 subcategory: GUIs
 role: batch_connect
-description: "This app will launch a Pycharm GUI on Buddy. You will be able to interact with the Pycharm GUI through a VNC session. Please note that this version of Pycharm is for academic use only. Please note that PyCharm Community 2019.3.1 will be removed in March 2022. Please start using PyCharm Community 2021.3 by changing the version below."
+description: "This app will launch a PyCharm GUI on Buddy. You will be able to interact with the PyCharm GUI through a VNC session. Please note that this version of PyCharm is for academic use only. Please email hpc@uco.edu if you require a research license."
 icon: ''
