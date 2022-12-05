@@ -3,6 +3,10 @@ Changes to this project that result in an increase of the major and or minor rev
 
 ## [Unreleased] - Unknown
 
+## [v2.0.1] - 2022-12-05
+### Fixed
+- Botched stash
+
 ## [v2.0.0] - 2022-12-05
 ### Added
 - Support for PyCharm 2022.3
@@ -19,6 +23,7 @@ Changes to this project that result in an increase of the major and or minor rev
 ### Added
 - Initial commit of current code
 
-[Unreleased]: https://github.com/UCO-HPC/buddy_pycharm/compare/v2.0.0...devel
-[Unreleased]: https://github.com/UCO-HPC/buddy_pycharm/compare/v1.0.0...v2.0.0
+[Unreleased]: https://github.com/UCO-HPC/buddy_pycharm/compare/v2.0.1...devel
+[v2.0.1]: https://github.com/UCO-HPC/buddy_pycharm/compare/v2.0.0...v2.0.1
+[v2.0.0]: https://github.com/UCO-HPC/buddy_pycharm/compare/v1.0.0...v2.0.0
 [v1.0.0]: https://github.com/UCO-HPC/buddy_pycharm/releases/tag/v1.0.0
