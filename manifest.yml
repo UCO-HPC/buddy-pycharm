@@ -3,5 +3,5 @@ name: PyCharm
 category: Interactive Apps
 subcategory: GUIs
 role: batch_connect
-description: "This app will launch a PyCharm GUI on Buddy. You will be able to interact with the PyCharm GUI through a VNC session. Please note that this version of PyCharm is for academic use only. Please email hpc@uco.edu if you require a research license."
+description: "This app will launch a PyCharm GUI on Buddy. You will be able to interact with the PyCharm GUI through a VNC session."
 icon: ''
